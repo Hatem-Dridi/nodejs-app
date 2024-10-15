@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 
 const password = encodeURIComponent(process.env.MONGO_PASSWORD.trim());
-const connectionString = `mongodb+srv://integrationninjas:${password}@devcluster.g99ze.mongodb.net/?retryWrites=true&w=majority`; // clustore url
+const connectionString = `mongodb+srv://integrationninjas:${password}@devcluster.rrghw.mongodb.net/?retryWrites=true&w=majority`; // clustore url
 const client = new MongoClient(connectionString);
 let conn;
 try {
